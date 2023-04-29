@@ -1,0 +1,144 @@
+:root {
+  --main-font-family: 'Roboto', sans-serif;
+  --secondary-font-family-family: 'Raleway', sans-serif;
+  --primary-text-color-theme-dark: #ffffff;
+  --primary-text-color-theme-light: #4d5ae5;
+  --secondary-text-color-theme-dark: #9da4bd;
+  --secondary-text-color-theme-light: #555555;
+  --accent-color: #e7e9fc;
+}
+button {
+  cursor: pointer;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  color: #434455;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.logo {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-color {
+  color: #2e2f42;
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  /* text-transform: uppercase; */
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+
+.contact-email {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  font-style: normal;
+}
+.contact-email:hover,
+.contact-email:focus {
+  color: var(--accent-color);
+}
+.contact-telefon {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  font-style: normal;
+}
+.contact-telefon:hover,
+.contact-telefon:focus {
+  color: var(--accent-color);
+}
+/* main */
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  /* color: #ffffff; */
+}
+
+.modal-open-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background: #4d5ae5;
+}
+
+.modal-open-btn:hover,
+.modal-open-btn:focus {
+  color: var(--accent-color);
+  background: #404bbf;
+}
+/* skills */
+.subtitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2x;
+  /* identical to box height, or 120% */
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.section-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  /* or 150% */
+  letter-spacing: 0.02em;
+  /* SLATE */
+  color: #434455;
+}
+
+.team-description {
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+/* work */
+.work-item-img {
+}
