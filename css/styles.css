@@ -109,6 +109,7 @@ body {
   order: 0;
   flex-grow: 0;
   background: #4d5ae5;
+  font-family: var(--main-font-family);
 }
 
 .modal-open-btn:hover,
@@ -146,7 +147,7 @@ body {
 }
 
 .section-team {
-  background-color: #f4f4fd;
+  background-color: #ffffff;
 }
 .team-description {
   text-align: center;
