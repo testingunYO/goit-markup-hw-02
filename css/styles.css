@@ -5,7 +5,7 @@
   --primary-text-color-theme-light: #4d5ae5;
   --secondary-text-color-theme-dark: #9da4bd;
   --secondary-text-color-theme-light: #555555;
-  --accent-color: #e7e9fc;
+  --accent-color: #404bbf;
 }
 button {
   cursor: pointer;
@@ -47,13 +47,18 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
   /* text-transform: uppercase; */
 }
 .menu-link:hover,
 .menu-link:focus {
   color: var(--accent-color);
 }
-
+/* adress */
+.adress-menu {
+  font-style: normal;
+}
 .contact-email {
   font-weight: 400;
   font-size: 16px;
