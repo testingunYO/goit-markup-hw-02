@@ -186,13 +186,13 @@ footer {
 }
 
 /* portfolio */
-/* .portfolio-btn-item {
+.portfolio-btn-item {
   font-family: var(--main-font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   /* identical to box height, or 150% */
-  /* display: flex;
+  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
@@ -204,4 +204,4 @@ footer {
 .portfolio-btn-item:focus {
   color: #ffffff;
   background: #4d5ae5;
-} */ */
+}
