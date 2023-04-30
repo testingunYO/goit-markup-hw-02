@@ -23,6 +23,7 @@ body {
   text-decoration: none;
 }
 .logo {
+  font-family: var(--secondary-font-family-family);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
